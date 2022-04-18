@@ -21,14 +21,17 @@ for(let i = 0; i < dogImages.length; i++){
     dogImages[i].style.transform = "rotate(180deg)"
 }
 
-//Change dogs' names to align right
+//Change dogs' names to align left
 let dogNames = document.querySelectorAll('.dog-name')
 for(let i = 0; i < dogNames.length; i++){
-    dogNames[i].style.textAlign = 'right'
+    dogNames[i].style.textAlign = 'left'
 }
 
 //Change color of footer text
 let footerText = document.querySelector('.footer')
 footerText.style.color = 'red'
+
+//Change footer border-style to solid
+footerText.style.borderStyle = 'solid'
 
 //Flip images upside down. Action completed in line 21.
